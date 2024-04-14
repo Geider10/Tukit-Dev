@@ -1,8 +1,13 @@
+import { Router, Route, BrowserRouter, Routes } from "react-router-dom"
+import { Home } from "./components/Home"
 function App() {
   return (
-    <>
-    <h1 className=" bg-cyan-700 text-3xl">Aguante messi Loco</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/resource/:id"></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
