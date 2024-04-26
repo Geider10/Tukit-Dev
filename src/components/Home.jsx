@@ -4,10 +4,10 @@ export const Home = () =>{
     return(
         <>
         <header className="text-center py-2"> 
-            <Link to="/" className="text-xl cursor-pointer"> Home</Link>
+            <h1 className="text-6xl cursor-pointer font-medium">Box Assets </h1>
         </header>
         <main>
-            <section>
+            <section >
                 <ListCategory></ListCategory>
             </section>
         </main>

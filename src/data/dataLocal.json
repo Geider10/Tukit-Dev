@@ -1,23 +1,25 @@
 {
-    "tools":[
-        {"id":1, "name":"Tabler Icons", "category":"Icons", "path":"https://tabler.io/icons"},
-        {"id":2, "name":"Squoosh", "category":"Compres Img", "path":"https://squoosh.app/"},
-        {"id":3, "name":"TinyPNG", "category":"Compres Img", "path":"https://tinypng.com/"},
-        {"id":4, "name":"Font Awesome", "category":"Icons", "path":"https://fontawesome.com/"}
-        
-    ],
     "categorys":[
-        {"id":1, "nameCategory":"All"},
+        {"id":1, "nameCategory":"---"},
         {"id":2, "nameCategory":"Icons"},
-        {"id":3, "nameCategory":"Compres Img"}
+        {"id":3, "nameCategory":"Tools"}
     ],
-    "colores":[
-        {"id":1, "color":"bg-red-300"},
-        {"id":2, "color":"bg-orange-300"},
-        {"id":3, "color":"bg-yellow-300"},
-        {"id":4, "color":"bg-emerald-300"},
-        {"id":5, "color":"bg-cyan-300"},
-        {"id":6, "color":"bg-violet-300"},
-        {"id":7, "color":"bg-pink-300"}
-       ]
+    "assets":[
+        {"id":1, "name":"Squoosh", "category":"Tools", "path":"https://squoosh.app/", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"},
+        {"id":2, "name":"TinyPNG", "category":"Tools", "path":"https://tinypng.com/", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"},
+        {"id":3, "name":"Tabler Icons", "category":"Icons", "path":"https://tabler.io/icons", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"},
+        {"id":4, "name":"Font Awesome", "category":"Icons", "path":"https://fontawesome.com/", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"}
+    ],
+    "tools":[
+        {"id":1, "name":"Squoosh", "category":"Tools", "path":"https://squoosh.app/", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"},
+        {"id":2, "name":"TinyPNG", "category":"Tools", "path":"https://tinypng.com/", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"}
+    ],
+    "icons":[
+        {"id":1, "name":"Tabler Icons", "category":"Icons", "path":"https://tabler.io/icons", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"},
+        {"id":2, "name":"Font Awesome", "category":"Icons", "path":"https://fontawesome.com/", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"}
+    ],
+    "video":[
+        {"id":1, "name":"Tabler Icons", "category":"Video", "path":"https://tabler.io/icons", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"},
+        {"id":2, "name":"Tabler Icons", "category":"Video", "path":"https://tabler.io/icons", "img":"https://cdn.shopify.com/s/files/1/0403/5801/9230/t/11/assets/logo-animation-openai-08-Bqv_1250x.jpg?v=1681851367"}
+    ]
 }

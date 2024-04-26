@@ -1,11 +1,10 @@
 import dataLocal from "../data/dataLocal.json";
-export const choiseData =( )=>{
-    return new Promise ((resolve, reject)=>{
-        resolve(dataLocal.categorys);
-    })
+export const allCategorys =()=>{
+    // return new Promise ((resolve, reject)=>{
+    //     resolve(dataLocal.categorys);
+    // })
+    return dataLocal.categorys;
 }
-export const getResources = () =>{
-    return new Promise ((resolve, reject)=>{
-        resolve(dataLocal.tools);
-    })
+export const allAssets = () =>{
+    return dataLocal.assets;
 }
