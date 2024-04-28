@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
 import { ListCategory } from "./ListCategory"
+import { RenderCart } from "./RenderCart"
 export const Home = () =>{
     return(
         <>
@@ -7,9 +7,8 @@ export const Home = () =>{
             <h1 className="text-6xl cursor-pointer font-medium">Box Assets </h1>
         </header>
         <main>
-            <section >
-                <ListCategory></ListCategory>
-            </section>
+            <ListCategory></ListCategory>
+            <RenderCart></RenderCart>
         </main>
         </>
         

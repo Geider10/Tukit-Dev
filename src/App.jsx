@@ -1,13 +1,15 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom"
 import { Home } from "./components/Home"
+import { StateAssets } from "./context/StateAssets"
 function App() {
   return (
-    <BrowserRouter>
+    <StateAssets>
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/resource/:id"></Route>
       </Routes>
-    </BrowserRouter>
+     </BrowserRouter>
+    </StateAssets>
   )
 }
 
