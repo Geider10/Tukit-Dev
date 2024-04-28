@@ -5,7 +5,7 @@ import { assetsContext } from "../context/assestsContext";
 export const RenderCart = () => {
     const {render} = useContext(assetsContext);
     return(
-        <section>
+        <section className="gridCarts">
             {
                 render && render.map((element)=>(
                     <CartCategory  carts={element} key={element.id}></CartCategory>

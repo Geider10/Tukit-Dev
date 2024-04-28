@@ -16,10 +16,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 body {
   margin: 0;
   padding: 0;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.gridCarts{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  justify-items: center;
+  gap: 20px;
 }
